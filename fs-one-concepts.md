@@ -5,7 +5,7 @@ Try your best to answer each question on your own before looking up the answer o
 #### 1. What is Enzyme and what are some of the methods that it provides?
         Enzyme is a testing utility designed specifically to assert, manipulate and traverse a React Component's output. We can pair Enzyme with Jest, or another test runner, to test React applications.
         
-        Some of the methods that Enzyme provides to us include toBe, toEqual, toHave, and .toMatch.
+        Some of the methods that Enzyme provides to us include simulate, find, contains, context and equals.
         
 #### 2. What is the difference between dynamic and a static routes?
         Static routes allow us to map different components to different views, or pages of content. With static routing, we are declaring our routes as part of our apps initialization, before any rendering takes place. With dynamic routes, the routing occurs as the route is rendering. 
